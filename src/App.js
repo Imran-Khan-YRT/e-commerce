@@ -1,8 +1,12 @@
 import './App.css';
+import Navigation from './customer/components/Navigation/Navigation';
 
 function App() {
   return (
-    <div className="App">
+    <div className="">
+      <div>
+        <Navigation/>
+      </div>
       Hello Ecommerce
     </div>
   );
